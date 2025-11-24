@@ -30,7 +30,7 @@ node --version  # Should show v18.x.x or higher
 
 #### **Option 2: Download from nodejs.org**
 1. Go to https://nodejs.org/
-2. Download the LTS version (18.x or higher)
+2. Download the LTS version (18.x or higher)s
 3. Install it
 4. Restart your terminal
 
