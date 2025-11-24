@@ -13,7 +13,6 @@
 The app will:
 - ✅ Check if everything is installed
 - ✅ Install dependencies automatically
-- ✅ Fix system settings
 - ✅ Start the app
 
 ### **What You'll See**
@@ -48,9 +47,6 @@ Press `Ctrl+C` in the Terminal window
 **"Node.js not found"**
 - Install Node.js from https://nodejs.org/ (version 18 or higher)
 
-**"Too many files" error**
-- The script will try to fix this automatically
-- If it asks for your password, enter it (this is safe)
 
 ---
 

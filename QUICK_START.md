@@ -17,9 +17,8 @@ Just **double-click it** and the app will start automatically!
 The `start-app.sh` script automatically:
 
 1. ✅ **Checks Node.js** - Makes sure it's installed and the right version
-2. ✅ **Fixes System Limits** - Handles the "too many files" error
-3. ✅ **Installs Dependencies** - Downloads all required packages
-4. ✅ **Starts the App** - Launches Expo development server
+2. ✅ **Installs Dependencies** - Downloads all required packages
+3. ✅ **Starts the App** - Launches Expo development server
 
 ---
 
@@ -31,8 +30,6 @@ After double-clicking, a Terminal window opens showing:
 🚀 Starting Workout Tracker App Setup...
 📦 Checking Node.js installation...
 ✅ Node.js is installed (v18.x.x)
-🔧 Fixing system file limits...
-✅ File limits configured
 📥 Installing dependencies...
 ✅ Dependencies installed
 🎉 Starting the app...
@@ -77,9 +74,6 @@ Press `a` in the Terminal (requires Android Studio)
 - Check "Execute" permission
 - Or run in Terminal: `chmod +x Start_Workout_Tracker.command`
 
-**Script asks for password:**
-- This is normal - it's fixing system file limits
-- Enter your Mac password (this is safe)
 
 **"Node.js not found":**
 - Install from https://nodejs.org/ (version 18+)

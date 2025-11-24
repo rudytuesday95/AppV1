@@ -46,16 +46,7 @@ fi
 echo -e "${GREEN}✅ Node.js is installed ($(node -v))${NC}"
 echo ""
 
-# Step 2: Fix file limit (try with sudo, but don't fail if it doesn't work)
-echo "🔧 Fixing system file limits..."
-if command -v sudo &> /dev/null; then
-    sudo launchctl limit maxfiles 65536 200000 2>/dev/null || echo -e "${YELLOW}⚠️  Could not increase file limit (may need password). Continuing anyway...${NC}"
-fi
-ulimit -n 4096 2>/dev/null || true
-echo -e "${GREEN}✅ File limits configured${NC}"
-echo ""
-
-# Step 3: Install dependencies
+# Step 2: Install dependencies
 echo "📥 Installing dependencies (this may take a few minutes)..."
 if [ ! -d "node_modules" ]; then
     npm install
@@ -65,7 +56,7 @@ fi
 echo -e "${GREEN}✅ Dependencies installed${NC}"
 echo ""
 
-# Step 4: Start the app
+# Step 3: Start the app
 echo -e "${GREEN}🎉 Starting the app...${NC}"
 echo ""
 echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"

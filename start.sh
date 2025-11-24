@@ -1,5 +1,5 @@
 #!/bin/bash
-# Script to start Expo with proper file limits
+# Script to start Expo
 
 # Source nvm
 export NVM_DIR="$HOME/.nvm"
@@ -7,9 +7,6 @@ export NVM_DIR="$HOME/.nvm"
 
 # Use Node 18
 nvm use 18
-
-# Increase file limit
-ulimit -n 4096
 
 # Navigate to project
 cd "$(dirname "$0")"
